@@ -1,0 +1,26 @@
+table, tr, th, td
+{
+    border: 1px solid black;
+}
+
+.table
+{
+    display: table;
+}
+
+.tr
+{
+    display: table-row;
+}
+
+.th
+{
+    display: table-cell;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.td
+{
+    display: table-cell;
+}
