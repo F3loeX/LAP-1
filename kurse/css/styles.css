@@ -1,0 +1,15 @@
+ul {
+   list-style-type: none !important;
+}
+
+input#str_nr_id {
+    width: 10% !important;
+}
+
+nav {
+    margin-top: 50px;
+}
+
+h2 {
+    margin-top: 50px;
+}

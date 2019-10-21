@@ -1,0 +1,60 @@
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+}
+
+nav {
+    margin: 15px;
+}
+
+
+main {
+    border-top: double 2px white;
+    background-color: white;
+    padding: 15px;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th, td
+{
+    padding: 5px;
+    text-align: center;
+}
+
+input[type="text"]
+{
+    width: 300px;
+}
+
+a {
+    color: white;
+    padding: 5px;
+    background-color: grey;
+    text-decoration: none;
+}
+
+.slash {
+    color: black;
+    padding: 5px;
+}
+
+.table {
+    display: table;
+}
+
+.tr {
+    display: table-row;
+}
+
+.td {
+    display: table-cell;
+    padding-right: 5px;
+}
+
+.th {
+    display: table-cell;
+    padding-right: 5px;
+    font-weight: bold;
+}
