@@ -1,0 +1,66 @@
+/*
+    Created by:
+
+ */
+
+.siteBG {
+    padding-top: 5%;
+}
+.menuBG {
+    background: #66b6fc; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #66b6fc 0%, #b2e1ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #66b6fc 0%,#b2e1ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #66b6fc 0%,#b2e1ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66b6fc', endColorstr='#b2e1ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    height: 40vh;
+}
+.itemBox {
+    background: #98b0d9; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #98b0d9 0%, #98b0d9 27%, #b1c8ef 60%, #c3d9ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #98b0d9 0%,#98b0d9 27%,#b1c8ef 60%,#c3d9ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #98b0d9 0%,#98b0d9 27%,#b1c8ef 60%,#c3d9ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98b0d9', endColorstr='#c3d9ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    min-height:40vh;
+    border-radius: 25px;
+    padding: 25px 35px!important;
+}
+body {
+    background: -moz-linear-gradient(left, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+.paddBot {
+    padding-bottom: 25px;
+}
+.bigText {
+    font-weight: 700;
+}
+.menuBG a {
+    color: #fff;
+    margin: 10px;
+}
+.startHeader {
+    padding-top: 15%;
+}
+.menuRow {
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.menuLink {
+    padding-bottom:3%;
+}
+.mainBG {
+    height:90vh;
+}
+.regForm input {
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+.inputBtn {
+    width: 200px!important;
+}
+.menuBG {
+    border-radius: 25px;
+}

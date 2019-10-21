@@ -1,0 +1,21 @@
+<select id="catSel" name="categorySelect" >
+	<?php
+
+	$query = 'SELECT * FROM category';
+
+	try {
+
+		$statement = $con->prepare($query);
+		$statement->execute();
+
+		while($row = $statement->fetch(PDO::FETCH_NUM)){
+			echo '<option value="' . $row[0] .'">' . $row[1] . '</option>';
+		}
+
+	} catch (Exception $e) {
+		echo 'Kategorie wurde nicht gefunden.';
+		echo $e->getMessage() . '<br>';
+	}
+
+	?>
+</select>

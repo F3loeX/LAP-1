@@ -1,0 +1,11 @@
+Philipp Lang,
+17.01.19
+
+Programmiersprache: PHP + HTML + SQL
+Software: 
+	
+	Implementierung: PHP Storm, phpMyAdmin
+	Benötigt wird: XAMPP Version: 7.1.11 und dort muss Apache + MySql (MariaDB) gestartet sein.
+	
+MySQL Server-Version: 10.1.28-MariaDB 
+MySQL Server-Zeichensatz: UTF-8 Unicode (utf8)
